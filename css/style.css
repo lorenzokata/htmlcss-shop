@@ -2,4 +2,128 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* container */
+    .container{
+        padding: 20px;
+    }
+/* end container */
+
+
+
+/* row settings */
+    .box {
+        width: calc(100% / 3 - 8px);
+        float: left;
+    }
+
+    .centrale{
+        margin: 0 10px;
+    }
+/* end row settings */
+
+
+
+/* box settings */
+
+    .box .img {
+        width: 100%;
+        position: relative;
+    }
+
+    .box img{
+        width:100%;
+    }
+
+    .clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* heart */
+    .heart{
+        background-color: white;
+        position: absolute;
+        top: 2%;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    /* property */
+    .property div{
+        display: inline-block;
+    }
+
+    .property{
+        position: absolute;
+        bottom: 2%;
+        left: 0;
+        font-size: 25px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .sconto{
+        background-color: #d73b48;
+        padding: 5px;
+    }
+
+    .sustainability{
+        background-color: #3e8158;
+        padding: 5px;
+    }
+    /* fine property */
+
+    /* info */
+    .marca{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+    }
+
+    .marca span{
+        vertical-align: top;
+        font-size: 10px;
+    }
+
+    .descrizione{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .prezzo{
+        color: red;
+        font-size: 20px;
+    }
+    /* fine info */
+
+/* fine box settings */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+
+/* .debug .property{
+    border: 3px solid black;
+} */
