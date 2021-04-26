@@ -7,15 +7,18 @@
 
 /* container */
     .container{
-        padding: 20px;
+        margin: 20px;
     }
 /* end container */
 
 
 
 /* row settings */
+    .row{
+        margin-bottom: 60px;
+    }
     .box {
-        width: calc(100% / 3 - 8px);
+        width: calc((100% - 20px) / 3 );
         float: left;
     }
 
@@ -43,6 +46,7 @@
         clear: both;
     }
 
+    
     /* heart */
     .heart{
         background-color: white;
@@ -55,6 +59,8 @@
         line-height: 30px;
         font-size: 30px;
     }
+    /* fine hearth */
+
 
     /* property */
     .property div{
@@ -81,6 +87,7 @@
     }
     /* fine property */
 
+
     /* info */
     .marca{
         font-family: 'Times New Roman', Times, serif;
@@ -93,12 +100,28 @@
     }
 
     .descrizione{
-        font-size: 24px;
+        font-size: 18px;
         margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .descrizione .initial{
+        text-transform: none;
     }
 
     .prezzo{
         color: red;
+        font-size: 20px;
+    }
+
+    .second-r .centrale .prezzo{
+        color: initial;
+    }
+
+    .banner{
+        background-color: #75ac51;
+        padding: 20px 15px;
+        line-height: 1.6;
         font-size: 20px;
     }
     /* fine info */
@@ -124,6 +147,3 @@
 
 /* debug */
 
-/* .debug .property{
-    border: 3px solid black;
-} */
